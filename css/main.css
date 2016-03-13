@@ -1,3 +1,5 @@
+
+/***GENERAL**/
 a {
 	text-decoration: none;
 	color: #6ab47b
@@ -7,27 +9,58 @@ a {
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
-	background: #ffcba0; 
+	background: #ca9b0e; 
 }
+
+
+
+/***HEADING**/
 
 #logo{
 	text-align: center;
 	margin: 0;
 }
-
 header{
-	background: #499c9c;
+	background: #FDD55E;
 	border-color: #2e8c8c;
 }
 
 h1,h2{
-	color: #ffb477;
+	font-family: 'lobster', sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	color: #7d5d00;
+	line-height: 0.8em;
 }
 
+2{
+	font-family: 'lobster', sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	color: #7d5d00;
+	line-height: 0.5em;
+}
+footer {
+	background: #FDD55E;
+}
+
+
+/***NAVIGATION**/
 nav{
-	background: #6db69c;
+	font-family: 'josefin sans';
+	background: #ebbc31;
 }
 
 nav a, nav a:visited{
 	color: #fff;
+}
+
+
+nav a.selected{
+	color: #c2bdac;
+}
+nav a:hover{
+	color: #7d755c;
 }
