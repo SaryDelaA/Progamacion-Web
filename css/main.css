@@ -115,7 +115,15 @@ nav a, nav a:visited{
 
 nav a.selected{
 	color: #c2bdac;
+
 }
 nav a:hover{
 	color: #7d755c;
+}
+
+.profile-photo{ 
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 100%;
 }
